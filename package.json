@@ -1,0 +1,39 @@
+{
+  "name": "expresso",
+  "version": "1.0.0",
+  "description": "Starter Node.js express server to wrap external APIs",
+  "main": "app.js",
+  "scripts": {
+    "start": "SET ENV_MODE=production&& nodemon app.js",
+    "dev": "nodemon app.js",
+    "doc": "apidoc -i routes/ -o docs/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dennislwm/expresso.git"
+  },
+  "author": "Dennis Lee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dennislwm/expresso/issues"
+  },
+  "homepage": "https://github.com/dennislwm/expresso#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  },
+  "apidoc": {
+    "title": "Expresso API Docs",
+    "name": "Expresso",
+    "version": "0.1.0",
+    "description": "Expresso API Documentation",
+    "url": "https://localhost/api"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "path": "^0.12.7",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5"
+  }
+}
