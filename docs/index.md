@@ -33,6 +33,7 @@ GET /bitly/:id
 ```
 
 ### Parameters - `Parameter`
+
 | Name     | Type       | Description                           |
 |----------|------------|---------------------------------------|
 | id | `String` | <p>Short code</p> |
@@ -47,6 +48,7 @@ curl {url}/bitly/teedy01
 ### Success response
 
 #### Success response - `Success 200`
+
 | Name     | Type       | Description                           |
 |----------|------------|---------------------------------------|
 | Redirect |  | <p>Page will be redirected to the long URL.</p> |
@@ -54,6 +56,7 @@ curl {url}/bitly/teedy01
 ### Error response
 
 #### Error response - `Error 4xx`
+
 | Name     | Type       | Description                           |
 |----------|------------|---------------------------------------|
 | PageNotFound |  | <p>Page not found 404 Error</p> |

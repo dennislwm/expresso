@@ -6,7 +6,7 @@
   "scripts": {
     "start": "SET ENV_MODE=production&& nodemon app.js",
     "dev": "nodemon app.js",
-    "doc": "apidoc -i routes/ -o apidocs/ && apidoc-markdown -p apidocs/ -o docs/index.md"
+    "doc": "apidoc -i routes/ -o apidocs/ && apidoc-markdown -p apidocs/ -o docs/index.md && rm -rf apidocs/"
   },
   "repository": {
     "type": "git",
